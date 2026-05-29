@@ -145,5 +145,3 @@ Deployed using Vercel with PWA support.
 ## ❤️ Author
 
 Made with ❤️ by **Utsav Raj**
-
-**Software Engineering Lab Project | May 2026**
