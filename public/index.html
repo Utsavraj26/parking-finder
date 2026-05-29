@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParkFinder - Find Parking Easily</title>
+  
+  <!-- PWA Meta Tags -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <div class="min-h-screen">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white p-4">
+      <div class="max-w-6xl mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">🚗 ParkFinder</h1>
+        <div class="space-x-4">
+          <a href="/login.html" class="hover:underline">Login</a>
+          <a href="/register.html" class="bg-white text-blue-600 px-4 py-2 rounded-lg font-medium hover:bg-gray-100">Register</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="max-w-6xl mx-auto text-center py-20 px-4">
+      <h2 class="text-5xl font-bold text-gray-800 mb-4">Find Parking in Seconds</h2>
+      <p class="text-xl text-gray-600 mb-8">Book parking spots near you instantly</p>
+      <a href="/search.html" 
+         class="bg-blue-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-700">
+        Search Parking Now →
+      </a>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
